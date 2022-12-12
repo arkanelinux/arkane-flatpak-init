@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-import gi
+import gi, os
 
 gi.require_version('Flatpak', '1.0')
 from gi.repository import Flatpak
 
 # As recommended by Flatpak maintainers, it is best to not bash script Flatpak
 # thus we are using the Flatpak API
+
+# Write file to trigger autostart script which informs user about ongoing installation
+open("/var/lib/arkane/flatpak-init.info", "w")
 
 installation = Flatpak.Installation.new_system()
 transaction = Flatpak.Transaction.new_for_installation(installation, None)
@@ -20,3 +23,6 @@ transaction.run(None)
 
 # Write file to inform systemd service it does not have to run again on next boot
 open("/var/lib/arkane/flatpak-init.lock", "w")
+
+# Remove info file to prevent autostart script from triggering again
+os.remove("/var/lib/arkane/flatpak-init.info")
