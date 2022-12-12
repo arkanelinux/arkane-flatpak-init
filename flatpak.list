@@ -7,6 +7,7 @@ app/org.gnome.Contacts/x86_64/stable
 app/org.gnome.Evince/x86_64/stable
 app/org.gnome.Extensions/x86_64/stable
 app/org.gnome.Firmware/x86_64/stable
+app/org.gnome.Logs/x86_64/stable
 app/org.gnome.Maps/x86_64/stable
 app/org.gnome.Music/x86_64/stable
 app/org.gnome.Photos/x86_64/stable
@@ -19,4 +20,5 @@ app/org.gnome.Weather/x86_64/stable
 app/org.gnome.baobab/x86_64/stable
 app/org.gnome.clocks/x86_64/stable
 app/org.gnome.eog/x86_64/stable
+app/org.gnome.font-viewer/x86_64/stable
 app/org.mozilla.firefox/x86_64/stable
