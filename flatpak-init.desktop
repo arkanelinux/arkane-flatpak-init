@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=flatpak-init.sh
+Name=Inform user if flatpak-init is still running upon user session start
+Comment=Update common folders names to match current locale
+Terminal=false
+OnlyShowIn=GNOME;LXDE;Unity;MATE;
+Type=Application
+StartupNotify=false
+

@@ -9,6 +9,4 @@ else
 	echo "/var/lib/arkane/flatpak-init.info does not exist, assuming no ongoing installation"
 fi
 
-rm $HOME/.config/autostart/flatpak-init.sh
-
 exit 0
