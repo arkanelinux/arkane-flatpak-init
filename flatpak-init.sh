@@ -11,7 +11,7 @@ then
 		sleep 2
 	done
 
-	notify-send -a "flatpak-init" -i /usr/share/pixmaps/arkane-logo.png -u normal -w \
+	notify-send -a "flatpak-init" -i /usr/share/pixmaps/arkanelinux-logo.png -u normal -w \
 		"Installation of core flatpak applications has finished" \
 		"The installation of core applications has just finished, all core applications have now been installed"	
 
