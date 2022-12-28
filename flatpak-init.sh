@@ -2,7 +2,7 @@
 
 if [[ -f "/var/lib/arkane/flatpak-init.info" ]];
 then
-	notify-send -a "flatpak-init" -i /usr/share/pixmaps/arkane-logo.png -u critical -w \
+	notify-send -a "flatpak-init" -i /usr/share/pixmaps/arkanelinux-logo.png -u critical -w \
 		"Installation of core flatpak applications is ongoing" \
 		"The installation of core applications is still ongoing, please allow some time for the process to complete" &
 
