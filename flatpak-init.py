@@ -17,8 +17,12 @@ transaction = Flatpak.Transaction.new_for_installation(installation, None)
 
 with open("/etc/arkane/flatpak-init/flatpak.list") as flatpak_list:
     for i, ref in enumerate(flatpak_list):
-        print("Adding " + ref)
-        transaction.add_install("flathub", ref.strip(), None)
+        print("Installing " + ref)
+        try:
+            transaction.add_install("flathub", ref.strip(), None)
+        except:
+            print("Failed to install " + ref)
+
 
 transaction.run(None)
 
