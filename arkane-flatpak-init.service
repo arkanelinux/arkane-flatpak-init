@@ -9,7 +9,7 @@ Type=simple
 Restart=on-failure
 RestartSec=15
 RemainAfterExit=yes
-ExecStart=/usr/bin/flatpak-init.py
+ExecStart=/usr/bin/arkane-flatpak-init
 
 [Install]
 WantedBy=multi-user.target
