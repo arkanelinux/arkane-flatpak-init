@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Exec=flatpak-init-notify
+Exec=arkane-flatpak-init-notify
 Name=Notify user flatpak-init
 Comment=Inform user if flatpak-init is still running upon user session start
 Terminal=false
