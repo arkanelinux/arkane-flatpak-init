@@ -6,11 +6,11 @@ app/org.gnome.Calculator/x86_64/stable
 app/org.gnome.Characters/x86_64/stable
 app/org.gnome.Connections/x86_64/stable
 app/org.gnome.Contacts/x86_64/stable
-app/org.gnome.Evince/x86_64/stable
 app/org.gnome.Firmware/x86_64/stable
 app/org.gnome.Logs/x86_64/stable
 app/org.gnome.Loupe/x86_64/stable
 app/org.gnome.Maps/x86_64/stable
+app/org.gnome.Papers/x86_64/stable
 app/org.gnome.Photos/x86_64/stable
 app/org.gnome.SimpleScan/x86_64/stable
 app/org.gnome.Snapshot/x86_64/stable
