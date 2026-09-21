@@ -22,5 +22,5 @@ app/org.gnome.Weather/x86_64/stable
 app/org.gnome.clocks/x86_64/stable
 app/org.gnome.font-viewer/x86_64/stable
 app/org.mozilla.firefox/x86_64/stable
-apps/io.github.kolunmi.Bazaar/x86_64/stable
+app/io.github.kolunmi.Bazaar/x86_64/stable
 runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
